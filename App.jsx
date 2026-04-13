@@ -18,43 +18,37 @@ export default function App() {
       id: 1,
       place: "Goa",
       days: 3,
-      image:
-        "https://images.unsplash.com/photo-1519677100203-a0e668c92439?q=80&w=2070",
+      image: "https://picsum.photos/id/1015/800/600",
     },
     {
       id: 2,
       place: "Manali",
       days: 5,
-      image:
-        "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=2070",
+      image: "https://picsum.photos/id/1016/800/600",
     },
     {
       id: 3,
       place: "Jaipur",
       days: 4,
-      image:
-        "https://images.unsplash.com/photo-1599669454699-248893623440?q=80&w=2070",
+      image: "https://picsum.photos/id/1018/800/600",
     },
     {
       id: 4,
       place: "Kerala",
       days: 6,
-      image:
-        "https://images.unsplash.com/photo-1602216055808-4e2d4c3e6c3f?q=80&w=2070",
+      image: "https://picsum.photos/id/102/800/600",
     },
     {
       id: 5,
       place: "Ladakh",
       days: 7,
-      image:
-        "https://images.unsplash.com/photo-1622290291469-0d0c3e5e8f0f?q=80&w=2070",
+      image: "https://picsum.photos/id/1036/800/600",
     },
     {
       id: 6,
       place: "Rishikesh",
       days: 3,
-      image:
-        "https://images.unsplash.com/photo-1540979388789-6cee28a1cdc9?q=80&w=2070",
+      image: "https://picsum.photos/id/1040/800/600",
     },
   ]);
 
@@ -81,6 +75,11 @@ export default function App() {
           <Route path="/add" element={<AddTrip addTrip={addTrip} />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
+      </div>
+    </Router>
+  );
+}
+
       </div>
     </Router>
   );
